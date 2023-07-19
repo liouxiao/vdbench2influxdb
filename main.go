@@ -143,6 +143,4 @@ func writeInflux(url, data string) {
 	}
 
 	fmt.Print(".")
-
-	// fmt.Println(string(result))
 }
