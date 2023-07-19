@@ -22,19 +22,22 @@ GOOS=linux go build .
 ```
 # influx 
 Visit https://enterprise.influxdata.com to register for updates, InfluxDB server management, and monitoring.
-```
+
 Or run InfluxDB using docker:
-```
-docker pull influxb:1.8
 
-mkdir data
+> docker pull influxb:1.8
 
-docker run -d \
+> mkdir data
+
+> docker run -d \
       -e INFLUXDB_REPORTING_DISABLED=true \
       -p 8086:8086 \
       -v $PWD/data:/var/lib/influxdb \
       influxdb:1.8 
-```
+
+Create Influx database (e.g. `G200`):
+
+> influx
 Connected to http://localhost:8086 version 1.8
 InfluxDB shell version: 1.8.10
 > create database G200;
