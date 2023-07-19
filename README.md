@@ -6,7 +6,7 @@ Inspired by https://github.com/xocoru/vdbench2influxdb
 
 The original code is written in PHP;
 
-Tranlated to Golang by ChatGPT;
+Translated to Golang by ChatGPT;
 
 Revised by Liouxiao.
 
