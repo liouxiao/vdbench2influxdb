@@ -51,4 +51,4 @@ InfluxDB shell version: 1.8.10
 
 ![Grafana Demo Screen](https://raw.githubusercontent.com/xocoru/vdbench2influxdb/master/grafana-demo-graph.png)
 
-PS: Sorry i am not a programmer at all ... so this PHP script could be mind blow. but it works. 
+
