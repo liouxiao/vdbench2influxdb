@@ -22,6 +22,7 @@ GOOS=linux go build .
 ```
 # influx 
 Visit https://enterprise.influxdata.com to register for updates, InfluxDB server management, and monitoring.
+```
 Or run InfluxDB using docker:
 ```
 docker pull influxb:1.8
